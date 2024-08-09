@@ -46,7 +46,7 @@ erfolgreich abgeschlossen sind):
    Dieser Vorgang dauert einige Minuten.
 
 6. Jetzt können Sie unter dem Link
-   [Arbeitsblatt](https://colab.research.google.com/github/I-fP-24-28/Skript/blob/main/docs/240904/schweizerfahne.ipynb)
+   [Arbeitsblatt](https://colab.research.google.com/github/I-eW-24-28/Script/blob/main/docs/240904/schweizerfahne.ipynb)
    das vorbereitete Jupyter Notebook in den neuen Ordner 240904
    herunterladen.
    
@@ -60,5 +60,5 @@ erfolgreich abgeschlossen sind):
 9. Folgen Sie den Anleitungen im Arbeitsblatt.
 
 Diese Vorgehensweise soll in diesem 
-[Arbeitsblatt](https://colab.research.google.com/github/I-fP-24-28/Skript/blob/main/docs/240904/schweizerfahne.ipynb)
+[Arbeitsblatt](https://colab.research.google.com/github/I-eW-24-28/Script/blob/main/docs/240904/schweizerfahne.ipynb)
 am Wappen des Kantons Tessin und der Schweizerfahne geübt werden.
