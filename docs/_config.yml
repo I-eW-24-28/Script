@@ -1,0 +1,10 @@
+theme: jekyll-theme-slate
+
+title: Informatik - Klasse 1fP
+description: ' ' 
+
+includes_dir: ./_includes
+layouts_dir:  ./_layouts
+plugins:
+  - jemoji
+  - jekyll-mermaid
