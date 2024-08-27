@@ -30,7 +30,8 @@ bzw.
 Um im Unterricht etwas ausprobieren zu können, ohne dass der ganze
 Computer zum Absturz gebracht wird, arbeiten wir in virtuellen
 Arbeitsumgebungen. [Hier wird beschrieben, wie eine solche virtuelle
-Arbeitsumgebung eingerichtet wird](anleitungen/anleitung_venv.md).
+Arbeitsumgebung eingerichtet wird](anleitungen/anleitung_venv.md). Eine
+entsprechende Checklist als Gedankenstütze findet sich [hier](anleitungen/kurzanleitung_venv.md).
 
 
 ## Beurteilung
