@@ -19,8 +19,8 @@ for i in range(n):
 ```
 
 `startwert BIS endwert [MIT schrittweite]` wird dabei durch `range(n)`
-ausgedrückt. Dabei ist `n` der Endwert. Gezählt wird bis aber ohne
-Endwert. Startwert und Schrittweite haben 
+ausgedrückt. Dabei ist `n` der Endwert. Gezählt wird bis zum aber ohne
+den Endwert. Startwert und Schrittweite haben 
 Vorgabewerte. Der Vorgabewert für den Start ist `0`, derjenige der
 Schrittweite `1`. Weil `range()` diese vorgegebenen Werte hat, müssen
 diese nicht explizit angegeben werden. Wenn der Startwert abweichend vom
@@ -30,3 +30,15 @@ werden. Der Aufruf von `range()` sieht dan so aus:
 ```python
 range(startwert, endwert)
 ```
+
+Falls eine von `1` abweichende Schrittweite festgelegt werden soll
+lautet der Aufruf
+
+```python
+range(startwert, endwert, schrittweite)
+```
+
+In diesem Fall müssen neben dem Endwert sowohl der Startwert und die
+Schrittweite angegeben werden. Andernfalls kann nicht zwischen den
+einzelnen Angaben zu Endwert, Startwert und Schrittweite unterschieden
+werden. 
