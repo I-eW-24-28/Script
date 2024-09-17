@@ -25,7 +25,7 @@ Vorgabewerte. Der Vorgabewert für den Start ist `0`, derjenige der
 Schrittweite `1`. Weil `range()` diese vorgegebenen Werte hat, müssen
 diese nicht explizit angegeben werden. Wenn der Startwert abweichend vom
 Vorgabewert festgelegt werden soll, kann dieser explizit angegeben
-werden. Der Aufruf von `range()` sieht dan so aus:
+werden. Der Aufruf von `range()` sieht dann so aus:
 
 ```python
 range(startwert, endwert)
@@ -42,3 +42,5 @@ In diesem Fall müssen neben dem Endwert sowohl der Startwert und die
 Schrittweite angegeben werden. Andernfalls kann nicht zwischen den
 einzelnen Angaben zu Endwert, Startwert und Schrittweite unterschieden
 werden. 
+
+Im hier verlinkten Arbeitsblatt finden Sie ein paar Übungen zu Python For-Schleifen.
