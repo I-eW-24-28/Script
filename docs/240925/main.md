@@ -35,25 +35,35 @@ werden. Die dazu erforderlichen Vergleichsoperatoren sind
 Mehrere Bedingungen können dabei mit und bzw. oder verknüpft werden. Die
 Verknüpfung der Bedingungen erfolgen nach den Regeln der formalen Logik.
 
-Aussagenlogik
-Computer verarbeiten Daten. Daten werden im Computer als Nullen und Einsen oder als "Strom" und "kein Strom" dargestellt. Mit diesen zwei Zuständen lässt sich alles darstellen. Weil alles mit zwei Zuständen dargestellt werden kann ist diese Form der Darstellung digital.
+# Aussagenlogik
+
+Computer verarbeiten Daten. Daten werden im Computer als Nullen und
+Einsen oder als "Strom" und "kein Strom" dargestellt.
+[Mit diesen zwei Zuständen lässt sich alles darstellen.](ascii.md)
+Weil alles mit zwei Zuständen
+dargestellt werden kann ist diese Form der Darstellung
+[*digital*](https://www.wissen.de/wortherkunft/digital).
 
 Im folgenden sollen die logischen Operationen
 
-logisches Nicht (not)
-logisches Und (and)
-logisches Oder (or)
-logisches Exklusiv-Oder (xor)
+- logisches Nicht (*not*)
+- logisches Und (*and*)
+- logisches Oder (*or*)
+- logisches Exklusiv-Oder (*xor*)
+
 betrachtet werden.
 
-Die Negation
-Die logische Negation wird als nicht-Operation bezeichnet.
+## Die Negation
+
+Die logische Negation wird als *nicht*-Operation bezeichnet.
 
 Wenn es nur zwei Werte - 0 und 1 - gibt, dann ist
 
-der Wert, der nicht 0 ist, 1 und
-der Wert, der nicht 1 ist, 0.
-Nicht wird mit dem Symbol ¬ oder $\ \bar{ }\ $ (Strich über dem verneinten Zeichen) dargestellt.
+- der Wert, der *nicht* 0 ist, 1 und
+- der Wert, der *nicht* 1 ist, 0.
+
+*Nicht* wird mit dem Symbol &not; oder $\ \bar{ }\ $ (Strich über dem
+verneinten Zeichen) dargestellt.
 
 Man kann damit schreiben
 
@@ -63,42 +73,60 @@ oder
 
 $\bar{1} = 0$
 
-Die Verneinung kann in einer sogenannten Wahrheitstabelle dargestellt werden.
+Die Verneinung kann in einer sogenannten Wahrheitstabelle dargestellt
+werden.
 
-$x$	$\bar{x}$
-0	1
-1	0
-Mit Wahrheitstabellen lassen sich auch andere logische Operationen definieren.
+| $x$ | $\bar{x}$ |
+| :---: | :---: |
+| 0 | 1 |
+| 1 | 0 |
 
-Logisches Und (and)
-Das logische Und (and) wird mit dem Symbol $\land$ dargestellt.
+Mit Wahrheitstabellen lassen sich auch andere logische Operationen
+definieren.
+
+## Logisches Und (*and*)
+
+Das logische Und (*and*) wird mit dem Symbol $\land$ dargestellt.
 
 Die Wahrheitstabelle dafür sieht folgendermassen aus:
 
-$x$	$y$	$x \land y$
-0	0	0
-0	1	0
-1	0	0
-1	1	1
-Logisches Oder (or)
-Das logische Oder (or) wird mit dem Symbol $\lor$ dargestellt.
+| $x$ | $y$ | $x \land y$ |
+| :---: | :---: | :---: |
+| 0 | 0 | 0 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 | 
+
+## Logisches Oder (*or*)
+
+Das logische Oder (*or*) wird mit dem Symbol $\lor$ dargestellt.
 
 Die Wahrheitstabelle für das logische Oder sieht folgendermassen aus:
 
-$x$	$y$	$x \lor y$
-0	0	0
-0	1	1
-1	0	1
-1	1	1
-Logisches exklusiv-Oder (xor)
-Das logische exklusiv-Oder (xor) wird mit dem Symbol $\dot\lor$ dargestellt.
+| $x$ | $y$ | $x \lor y$ |
+| :---: | :---: | :---: |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 1 | 
 
-Die Wahrheitstabelle für das logische exklusiv-Oder sieht folgendermassen aus:
+## Logisches exklusiv-Oder (*xor*)
 
-$x$	$y$	$x \dot\lor y$
-0	0	0
-0	1	1
-1	0	1
-1	1	0
-Rangfolge logischer Operatoren
-Analog zu den arithmetischen Operationen haben auch die logischen Operatoren eine Rangfolge. Am stärksten bindet dabei not ($\lnot x$ oder $\bar{x}$) gefolgt von and ($x \land y$) und or ($x \lor y$).
+Das logische exklusiv-Oder (*xor*) wird mit dem Symbol $\dot\lor$
+dargestellt.
+
+Die Wahrheitstabelle für das logische exklusiv-Oder sieht
+folgendermassen aus:
+
+| $x$ | $y$ | $x \dot\lor y$ |
+| :---: | :---: | :---: |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 | 
+
+## Rangfolge logischer Operatoren
+
+Analog zu den arithmetischen Operationen haben auch die logischen
+Operatoren eine Rangfolge. Am stärksten bindet dabei *not* ($\lnot x$ oder
+$\bar{x}$) gefolgt von *and* ($x \land y$) und *or* ($x \lor y$).
