@@ -15,7 +15,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 11.09.24 | [Variablen als Wegweiser zu Objekten](https://colab.research.google.com/github/I-eW-24-28/Script/blob/main/docs/240911/Variablen.ipynb) |
 | 18.09.24 | [Schleifen](240918/main.md) |
 | 25.09.24 | [Bedingungen](240925/main.md) |
-| 23.10.24 | Anwendungsübungen |
+| 23.10.24 | [Anwendungsübungen](241023/main.md) |
 | 30.10.24 | Individuelle Prüfungsvorbereitung |
 | 06.11.24 | Test |
 
