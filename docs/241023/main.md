@@ -39,6 +39,8 @@ Verfassen Sie eine Zusammenfassung für die Prüfung vom 6. November 24.
   auswendig gelernt werden und dürfen in der Zusammenfassung **nicht**
   aufgeführt werden.
 * Die Zusammenfassung ist in einer Teams-Aufgabe abzugeben.
+* Die Abgabe hat als PDF zu erfolgen.
+* Die korrekte Abgabe wird mit zwei Punkten an die Prüfungsbeurteilung angerechnet.
 * Die in Teams abgegebene Zusammenfassung muss mit der an der Prüfung
   verwendeten Zusammenfassung identisch sein.
 * Das an der Prüfung verwendete Original der Zusammenfassung ist mit der
