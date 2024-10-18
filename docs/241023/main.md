@@ -5,7 +5,8 @@
 In zwei Wochen, am 6. November 24, findet Ihre erste Prüfung im Fach
 Informatik statt. Die Lektion vom 23. und vom 30. Oktober 24 dienen der
 Vorbereitung der Prüfung. Am 23. Oktober 24 steht Ihnen dazu ein
-Arbeitsblatt für die Repetition zur Verfügung. Am 30. Oktober 24 sind
+[Arbeitsblatt für die Repetition](241023_anwendungsuebungen.ipynb)
+zur Verfügung. Am 30. Oktober 24 sind
 Sie auf sich allein gestellt.
 
 An der Prüfung erwarte ich, dass Sie in der Lage sind
@@ -20,7 +21,8 @@ An der Prüfung erwarte ich, dass Sie in der Lage sind
 
 ## Absicht
 
-Ich will, dass Sie in einer ersten Phase mit Hilfe des Arbeitsblattes
+Ich will, dass Sie in einer ersten Phase mit Hilfe des 
+[Arbeitsblattes](241023_anwendungsuebungen.ipynb)
 Ihren aktuellen Wissenstand überprüfen und in einer zweiten Phase die
 erkannten Lücken schliessen.
 
