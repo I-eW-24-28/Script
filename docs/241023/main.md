@@ -18,6 +18,11 @@ An der Prüfung erwarte ich, dass Sie in der Lage sind
 * Bedingungen zu verwenden sowie
 * mathematische Formeln als Funktionen in Python zu implementieren.
 
+Die Prüfung wird auf Papier stattfinden. Als Hilfsmittel ist eine
+handgeschriebene Zusammenfassung im Umfang von einer Seite A4
+zugelassen. Die Schritte für die Inbetriebnahme eines Jupyter Notebooks
+dürfen in der Zusammenfassung **nicht** aufgeführt werden.
+
 ## Absicht
 
 Ich will, dass Sie in einer ersten Phase mit Hilfe des Arbeitsblattes
