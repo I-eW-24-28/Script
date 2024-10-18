@@ -37,3 +37,8 @@ Verfassen Sie eine Zusammenfassung für die Prüfung vom 6. November 24.
   auswendig gelernt werden und dürfen in der Zusammenfassung **nicht**
   aufgeführt werden.
 * Die Zusammenfassung ist in einer Teams-Aufgabe abzugeben.
+
+## Erreichbarkeit
+
+Sie erreichen mich via Teams. Fragen zum Auftrag und zur Prüfung werden
+ausschliesslich im Kanal Allgemein des Teams I_eW_24-28 beantwortet.
