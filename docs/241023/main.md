@@ -3,7 +3,7 @@
 ## Orientierung
 
 In zwei Wochen, am 6. November 24, findet Ihre erste Prüfung im Fach
-Informatik statt. Die Lektion vom 23. und vom 30. Oktober 24 dienen der
+Informatik statt. Die Lektionen vom 23. und vom 30. Oktober 24 dienen der
 Vorbereitung der Prüfung. Am 23. Oktober 24 steht Ihnen dazu ein
 [Arbeitsblatt für die Repetition](241023_anwendungsuebungen.ipynb)
 zur Verfügung. Am 30. Oktober 24 sind
@@ -39,6 +39,10 @@ Verfassen Sie eine Zusammenfassung für die Prüfung vom 6. November 24.
   auswendig gelernt werden und dürfen in der Zusammenfassung **nicht**
   aufgeführt werden.
 * Die Zusammenfassung ist in einer Teams-Aufgabe abzugeben.
+* Die in Teams abgegebene Zusammenfassung muss mit der an der Prüfung
+  verwendeten Zusammenfassung identisch sein.
+* Das an der Prüfung verwendete Original der Zusammenfassung ist mit der
+  Prüfung zusammen abzugeben.
 
 ## Erreichbarkeit
 
