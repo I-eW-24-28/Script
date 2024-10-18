@@ -18,3 +18,10 @@ An der Prüfung erwarte ich, dass Sie in der Lage sind
 * Bedingungen zu verwenden sowie
 * mathematische Formeln als Funktionen in Python zu implementieren.
 
+## Absicht
+
+Ich will, dass Sie in einer ersten Phase mit Hilfe des Arbeitsblattes
+Ihren aktuellen Wissenstand überprüfen und in einer zweiten Phase die
+erkannten Lücken schliessen.
+
+## Auftrag
