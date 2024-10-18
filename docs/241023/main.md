@@ -43,4 +43,6 @@ Verfassen Sie eine Zusammenfassung für die Prüfung vom 6. November 24.
 ## Erreichbarkeit
 
 Sie erreichen mich via Teams. Fragen zum Auftrag und zur Prüfung werden
-ausschliesslich im Kanal Allgemein des Teams I_eW_24-28 beantwortet.
+ausschliesslich im [Kanal Allgemein des Teams
+I_eW_24-28](https://teams.microsoft.com/l/channel/19%3A83cEEW8aBMfwO4plmhM1NH6N0orzg10qHCttpeE7YsU1%40thread.tacv2/General?groupId=b45ae719-3b69-4ae3-b696-41e72f96a352&tenantId=50059cc0-6e9c-4754-b309-9fda676913c7)
+beantwortet. 
