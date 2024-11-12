@@ -157,7 +157,7 @@ diesem Fall die geraden Zahlen von 1 bis (und mit) 20. Dies entspricht
 der Mengenbeschreibung 
 $$
 \{x \in \mathbb{N} \mid 1 \geq x > 21, x \bmod 2 = 0\}
-$$
+$$.
 
 Anstelle der Funktion `range()` kann in einer *list comprehension* auch
 eine bereits bestehende Python-Liste verwendet werden. So kann mit einer
