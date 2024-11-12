@@ -88,9 +88,17 @@ Sellerie
 
 ## Über Python-Listen iterieren
 
-Um der Reihe nach auf die einzelnen Elemente einer Liste zuzugreifen, kann mit einer `for` Schleife über die Liste iteriert (darüber gelaufen) werden. Das folgende Listing zeigt, wie über die Gemüseliste iteriert werden kann.
+Um der Reihe nach auf die einzelnen Elemente einer Liste zuzugreifen, kann mit
+einer `for` Schlaufe über die Liste iteriert (darüber gelaufen) werden. Das
+folgende Listing zeigt, wie über die Gemüseliste iteriert werden kann. 
 
 ```Python
 for vegetable in vegetables:
     print(vegetable)
 ```
+
+Für dieses Vorgehen hat sich eingebürgert, dass man die laufende Variabel
+(`vgetable`) im Singular der Variabel der Liste (`vegetables`) benennt.  
+Innerhalb der Schlaufe nimmt die laufende Variabel der Reihe nach jeden Wert der
+Python Liste an und verarbeitet ihn gemäss den Programmanweisungen im Körper der
+Schlaufe (hier `print(vegetable`)).
