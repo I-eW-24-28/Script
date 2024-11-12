@@ -18,6 +18,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 23.10.24 | [Anwendungsübungen](241023/main.md) |
 | 30.10.24 | Individuelle Prüfungsvorbereitung |
 | 06.11.24 | Test |
+| 13.11.24 | Datenstrukturen: [Python-Listen](241113/lists.md) |
 
 ## Hilfsmittel für den Unterricht
 
