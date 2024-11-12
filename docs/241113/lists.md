@@ -129,7 +129,10 @@ Dies ermöglicht es uns, alle Variablen einzeln anzusprechen.
 
 Eine *list comprehension* funktioniert ähnlich, wie die Beschreibung
 einer Menge in 
-der Mathematik ($\{x \in \mathbb{N} \mid \color{red} 1 \geq x > 21\color{black}\}$).
+der Mathematik
+$$
+\{x \in \mathbb{N} \mid \color{red} 1 \geq x > 21\color{black}\}
+$$
 
 Der Teil
 
