@@ -167,3 +167,9 @@ hundert_mit_bedingungen = [x for x in hundert if x % 7 == 0 and x > 50]
 
 Die zweite *list comprehension* erstellt hier eine Liste mit Zahlen, die
 durch 7 Teilbar **und** grösser als 50 sind.
+
+## Übungen
+
+Die obigen Erklärungen können auf dem 
+[hier verlinkten Jupyter Notebook](arbeitsblatt_listen.ipynb)
+eingeübt werden.
