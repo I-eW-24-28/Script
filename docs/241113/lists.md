@@ -140,3 +140,16 @@ entspricht dabei der Bedingung (oben rot dargestellt) in der Beschreibung einer 
 der Startwert bei dem die Variabel `i` zu zählen beginnt. Man nennt eine
 Variable wie `i` eine Laufvariable. 21 ist die obere Grenze. Die Grenze
 selber wird nicht mitgezählt.
+
+Ein etwas komplexeres Beispiel resultiert, wenn die *list comrehension* mit
+einer Bedingung verknüpft wird.
+
+```Pyhton
+even_example_numbers = [i for i in range(1,21) if i % 2 == 0]
+```
+
+In die Python-Liste `even_example_numbers` werden nur jene Werte für `i`
+aufgenommen, welche die Bedingung `i % 2 == 0` erfüllen. Das sind in
+diesem Fall die geraden Zahlen von 1 bis (und mit) 20. Dies entspricht
+der Mengenbeschreibung $\{x \in \mathbb{N} \mid 1 \geq x > 21, x \bmod
+2 = 0\}$.
