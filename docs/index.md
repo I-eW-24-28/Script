@@ -19,6 +19,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 30.10.24 | Individuelle Prüfungsvorbereitung |
 | 06.11.24 | Test |
 | 13.11.24 | Datenstrukturen: [Python-Listen](241113/lists.md) |
+| 08.01.25 | Test |
 
 ## Hilfsmittel für den Unterricht
 
