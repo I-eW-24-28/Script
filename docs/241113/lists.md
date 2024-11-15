@@ -177,4 +177,6 @@ durch 7 Teilbar **und** grösser als 50 sind.
 
 Die obigen Erklärungen können auf dem 
 [hier verlinkten Jupyter Notebook](arbeitsblatt_listen.ipynb)
-eingeübt werden.
+eingeübt werden. 
+[Hier](arbeitsblatt_listen_musterloesung.ipynb)
+finden Sie eine Musterlösung zum Arbeitsblatt.
