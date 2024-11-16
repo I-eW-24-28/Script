@@ -11,5 +11,13 @@ definitions = {
     'list': 'Eine Python-Liste ist eine geordnete Ablage von Werten von bliebiger Länge.',
     'dictionary': 'Ein dictionary in Python bietet die Möglichket, key-value Paare abzulegen.'
 }
-
 ```
+
+Die *key - value* Paare werden für die Erstellung eines Python Dictionary in
+geschweifte Klammern geschrieben. Die Verbindung von Schlüssel und Wert erfolgt
+durch die Verbindung mit einem Doppelpunkt (`key: value`). Als Schlüssel eignen
+sich dabei Strings, Tupel (werden noch erklärt), Ganzzahlen sowie
+Fliesskommazahlen. Um die Lesbarkeit des Codes zu verbessern, lohnt es sich, die
+Variabel, welcher das Dictionary zugewiesen wird auf einer separaten Zeile zu
+schreiben und anschliessend für jedes *key - value* Paar eine neue Zeile zu
+verwenden. Mehrere Elemente werden durch Kommata abgegrenzt.
