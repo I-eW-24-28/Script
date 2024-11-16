@@ -56,3 +56,27 @@ for key in definitions:
     print(f'{key}: {definitions[key]}')
 ```
 
+Eine weitere Möglichkeit bietet eine in die Datenstruktur der Python
+Dictionaries integrierte Funktion.
+
+```Python
+definitions.items()
+```
+
+Diese Zeile gibt alle Elemente (*items*) des Dictionary aus.
+
+Wenn die Darstellung noch etwas schöner sein soll, kann der Befehl mit einem
+*for-loop* kombiniert werden.
+
+```Python
+for item in definitions.items():
+    print(item)
+```
+
+Um die Elemente nach Schlüssel und Wert getrennt auszugeben, kann der *for-loop*
+folgendermassen angepasst werden:
+
+```Python
+for item, value in definitions.items():
+    print(f'{key}: {value}')
+```
