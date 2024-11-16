@@ -3,7 +3,11 @@
 In Python Dictionaries können ähnlich wie in Python-Listen eine Reihe von
 Elementen abgelegt werden. Anders als in Python-Listen werden die Elemente
 allerdings nicht über einen Index aufgerufen, sondern über einen Schlüssel. Man
-spricht daher von *key - value* Paaren. Das folgende Listing zeigt ein einfaches
+spricht daher von *key - value* Paaren. 
+
+## Erstellen eines Python Dictionary
+
+Das folgende Listing zeigt ein einfaches
 Beispiel für ein Python Dictionary.
 
 ```Python
@@ -22,6 +26,8 @@ Variabel, welcher das Dictionary zugewiesen wird auf einer separaten Zeile zu
 schreiben und anschliessend für jedes *key - value* Paar eine neue Zeile zu
 verwenden. Mehrere Elemente werden durch Kommata abgegrenzt.
 
+## Zugriff auf ein Element in einem Python Dictionary
+
 Um auf einen Eintrag in einem Dictionary zuzugreifen, verwendet man die Variabel
 mit anschliessenden eckigen Klammern, in denen der Schlüssel steht.
 
@@ -31,6 +37,8 @@ definitions['list']
 
 Das obige Listing gibt entsprechend den dem Schlüssel `list` zugewiesenen Wert
 aus. 
+
+## Direkt über ein Python Dictionary iterieren
 
 Um über die Elemente eines Dictionary zu iterieren gibt es verschiedene
 Möglichkeiten. Die einfachste Möglichkeit bietet ein *for-loop*.
@@ -55,6 +63,8 @@ Alternativ kann auch ein f-String verwendet werden.
 for key in definitions:
     print(f'{key}: {definitions[key]}')
 ```
+
+## Über ein Python Dictionary iterieren mit der .items() Methode
 
 Eine weitere Möglichkeit bietet eine in die Datenstruktur der Python
 Dictionaries integrierte Funktion.
