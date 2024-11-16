@@ -26,7 +26,33 @@ Um auf einen Eintrag in einem Dictionary zuzugreifen, verwendet man die Variabel
 mit anschliessenden eckigen Klammern, in denen der Schlüssel steht.
 
 ```Python
-defintions['list']
+definitions['list']
 ```
 
-Das obige Listing gibt entsprechend den dem Schlüssel `list` zugewiesenen Wert aus.
+Das obige Listing gibt entsprechend den dem Schlüssel `list` zugewiesenen Wert
+aus. 
+
+Um über die Elemente eines Dictionary zu iterieren gibt es verschiedene
+Möglichkeiten. Die einfachste Möglichkeit bietet ein *for-loop*.
+
+```Python
+for key in definitions:
+    print(defintitions[key])
+```
+
+Diese Möglichkeit hat allerdings den Nachteil, dass nur der Wert und nicht der
+dazugehörige Schlüssel ausgegeben wird. Um dies zu korrigieren, muss der
+print()-Befehl angepasst werden.
+
+```Python
+for key in definitions:
+    print(key + ': ' + definitions[key])
+```
+
+Alternativ kann auch ein f-String verwendet werden.
+
+```Python
+for key in definitions:
+    print(f'{key}: {definitions[key]}')
+```
+
