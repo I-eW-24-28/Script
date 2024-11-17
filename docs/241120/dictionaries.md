@@ -12,7 +12,7 @@ Beispiel für ein Python Dictionary.
 
 ```Python
 definitions = {
-    'list': 'Eine Python-Liste ist eine geordnete Ablage von Werten von bliebiger Länge.',
+    'list': 'Eine Python-Liste ist eine geordnete Ablage von Werten von beliebiger Länge.',
     'dictionary': 'Ein dictionary in Python bietet die Möglichkeit, key-value Paare abzulegen.'
 }
 ```
@@ -20,7 +20,9 @@ definitions = {
 Die *key - value* Paare werden für die Erstellung eines Python Dictionary in
 geschweifte Klammern geschrieben. Die Verbindung von Schlüssel und Wert erfolgt
 durch die Verbindung mit einem Doppelpunkt (`key: value`). Als Schlüssel eignen
-sich dabei Strings, Tupel (werden noch erklärt), sowie Ganzzahlen. Um die
+sich dabei Strings, Tupel (werden noch erklärt), sowie Ganzzahlen. Wichtig ist,
+dass die Schlüssel aus unveränderlichen Datentypen bestehen.  
+Um die
 Lesbarkeit des Codes zu verbessern, hat es sich als gängige Praxis etabliert, die
 Variabel, welcher das Dictionary zugewiesen wird auf einer separaten Zeile zu
 schreiben und anschliessend für jedes *key - value* Paar eine neue Zeile zu
@@ -45,7 +47,7 @@ Möglichkeiten. Die einfachste Möglichkeit bietet ein *for-loop*.
 
 ```Python
 for key in definitions:
-    print(defintitions[key])
+    print(definitions[key])
 ```
 
 Diese Möglichkeit hat allerdings den Nachteil, dass nur der Wert und nicht der
