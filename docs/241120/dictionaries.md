@@ -90,3 +90,7 @@ folgendermassen angepasst werden:
 for item, value in definitions.items():
     print(f'{key}: {value}')
 ```
+
+Die hier dargelegten theoretischen Ausführungen können in diesem
+[Arbeitsblatt](arbeitsblatt_dictionaries.ipynb)
+eingeübt werden.
