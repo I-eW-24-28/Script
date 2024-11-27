@@ -19,7 +19,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 30.10.24 | Individuelle Prüfungsvorbereitung |
 | 06.11.24 | Test |
 | 13.11.24 | Datenstrukturen: [Python-Listen](241113/lists.md) |
-| 20.11.24 | Datenstrukturen: [Dictionaries](241120/arbeitsblatt_dictionaries.ipynb) |
+| 20.11.24 | Datenstrukturen: [Dictionaries](241120/dictionaries.md) |
 | 27.11.24 | Algorithmen: [Selection Sort](241127/selection_sort.md) |
 | 08.01.25 | Test |
 
