@@ -25,4 +25,6 @@ Rekursive Funktionen sind entsprechend Funktionen, die sich selber
 aufrufen. 
 
 Hier geht es zu einem 
-[Arbeitsblatt zu den rekursiven Funktionen](anwendungsuebung_rekursion.ipynb).
+[Arbeitsblatt zu den rekursiven Funktionen](anwendungsuebung_rekursion.ipynb).  
+Die Musterlösung des Arbeitsblattes ist hier
+[verlinkt](musterloesung_anwendungsuebung_rekursion.ipynb).
