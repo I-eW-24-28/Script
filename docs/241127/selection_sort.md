@@ -98,6 +98,8 @@ Notebook](https://colab.research.google.com/github/I-gW-23-27/Skript/blob/main/d
 Die Musterlösung findet sich
 [hier](https://colab.research.google.com/github/I-gW-23-27/Skript/blob/main/docs/240305/sortieralgorithmen_muloe.ipynb).
 
+Hier findet sich die [Musterlösung](../241204/selection_sort.ipynb) der in der Lektion besprochenen vorgehensweise.
+
 
 [^1]: Knuth, Donald Ervin; The Art of Computer Programming (Fundamental
     Algorithms); 3rd ed.; Bd. I.; Reading, Mass: Addison-Wesley, 1997;
