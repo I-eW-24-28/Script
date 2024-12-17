@@ -94,5 +94,14 @@ for item, value in definitions.items():
 ```
 
 Die hier dargelegten theoretischen Ausführungen können in diesem
-[Arbeitsblatt](arbeitsblatt_dictionaries.ipynb)
+<a
+href="https://colab.research.google.com/github/I-eW-24-28/Script/blob/main/docs/241120/arbeitsblatt_dictionaries.ipynb"
+target="_blank">
+Arbeitsblatt
+</a>
 eingeübt werden.
+<a
+href="https://colab.research.google.com/github/I-eW-24-28/Script/blob/main/docs/241120/arbeitsblatt_dictionaries_musterloesung.ipynb"
+target="_blank">
+Die Musterlösung zum Arbeitsblatt ist hier verlinkt.
+</a>

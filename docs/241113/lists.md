@@ -176,7 +176,11 @@ durch 7 Teilbar **und** grösser als 50 sind.
 ## Übungen
 
 Die obigen Erklärungen können auf dem 
-[hier verlinkten Jupyter Notebook](arbeitsblatt_listen.ipynb)
-eingeübt werden. 
-[Hier](arbeitsblatt_listen_musterloesung.ipynb)
-finden Sie eine Musterlösung zum Arbeitsblatt.
+<a href="https://colab.research.google.com/github/I-eW-24-28/Script/blob/main/docs/241113/arbeitsblatt_listen.ipynb" target="_blank">
+hier verlinkten Jupyter Notebook</a>
+eingeübt werden.
+<a
+href="https://colab.research.google.com/github/I-eW-24-28/Script/blob/main/docs/241113/arbeitsblatt_listen_musterloesung.ipynb"
+target="_blank">
+Hier finden Sie eine Musterlösung zum Arbeitsblatt.
+</a>
