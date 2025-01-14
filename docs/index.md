@@ -27,6 +27,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 18.12.24 | <a href="https://www.chrislaux.com/de/mergesort" target="_blank">Merge Sort</a> |
 |          | <a href="https://www.codecademy.com/learn/sorting-algorithms-python/modules/merge-sort-python/cheatsheet" target="_blank">Python Code</a> |
 | 08.01.25 | Test ([Lernziele](241218/lernziele.md)) |
+| 15.01.25 | Datenstrukturen: [Binary Search Tree](250115/binary_search_tree.md) |
 
 ## Hilfsmittel für den Unterricht
 
