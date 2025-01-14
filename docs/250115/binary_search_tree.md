@@ -23,9 +23,33 @@ verketteten Liste lassen sich neue Elemente mit konstantem Aufwand einfügen.
 Allerdings hat die verkettete Liste den Nachteil, dass die Suche nach einem
 Element mit linearem Aufwand verbunden ist.
 
-An dieser Stelle kommt der binäre Suchbaum (binary search tree, bst) inst Spiel.
+An dieser Stelle kommt der binäre Suchbaum (binary search tree, bst) ins Spiel.
 
+>## Bäume in der Informatik
+>
+><figure>
+>  <img src="./tree.png" alt="Christmas Tree">
+>  <figcaption>Quelle: xkcd.com/835, besucht am 4. Mai 24</figcaption>
+></figure>
+>
+>Ein Baum in der Informatik ist eine Datenstruktur die aus Knoten (engl.
+>Vertex bzw. vertices, V) und Kanten (engl. edge, E) besteht. Der erste
+>Knoten ist die Wurzel (engl. root). Alle anderen Knoten haben einen
+>Knoten als Elternknoten. Ein Elternknoten kann ein oder mehrere
+>Kindknoten haben. Ein Knoten ohne Kinder wird als Blatt bezeichnet.
+>Üblicherweise werden Bäume vom Wurzelknoten aus nach unten dargestellt.
 
+Ein binärer Suchbaum ist eine baumförmige Datenstruktur, bei der jeder Knoten
+ein oder zwei Kinder hat. Die Werte in den Knoten sind 
+dabei so in den Baum eingeordnet, dass jedes linke Kind kleiner ist als der
+Elternknoten und jedes rechte Kind grösser. Im Idealfall ist der Baum
+symmetrisch ausbalanciert. Es kann allerdings auch sein, dass ein binärer
+Suchbaum derart aus dem Gleichgewicht ist, dass er wie eine verkettete Liste
+aussieht. Aus diesem Grund muss bei der Effizienzbetrachtung dieser
+Datenstruktur zwischen Idealfall und Worst Case unterschieden werden. Im
+Idealfall ist die Suche und das Einfügen neuer Elemente mit einem Aufwand von
+$log(n)$ möglich. Im Worst Case verursacht die Suche einen linearen Aufwand.
 
-In verschiedenen Programmiersprachen können in
-einem Array nur Elemente vom gleichen Datentyp abgelegt werden.
+Die folgende Grafik zeigt ein Beispiel eines binären Suchbaums.
+
+![Beispielbaum](./bsp_tree.svg)
