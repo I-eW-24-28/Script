@@ -28,6 +28,7 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 |          | <a href="https://www.codecademy.com/learn/sorting-algorithms-python/modules/merge-sort-python/cheatsheet" target="_blank">Python Code</a> |
 | 08.01.25 | Test ([Lernziele](241218/lernziele.md)) |
 | 15.01.25 | Datenstrukturen: [Binary Search Tree](250115/binary_search_tree.md) |
+| 22.01.25 | Datenstrukturen: [Stack und Queue](250122/speicherstrukturen.md) |
 
 ## Hilfsmittel für den Unterricht
 
