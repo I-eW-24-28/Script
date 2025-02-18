@@ -3,10 +3,15 @@
 class Node:
     def __init__(self, value):
         self.value = value
-        self.connections = {}
+        self.connections = {
+            'next': None
+        }
         
     def __str__(self):
-        return f'Value: {self.value}\nNext: {self.next}'
+        s = f'Value: {self.value}\n'
+        s += 'Next: None' if self.connections['next'] is None else f'Next: {str(self.connections['next'].value)}'
+        
+        return s
         
     def set_next(self, next):
         self.connections['next'] = next
