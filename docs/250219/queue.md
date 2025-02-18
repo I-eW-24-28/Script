@@ -30,14 +30,7 @@ Vorangehende Element (`self.connections['previous']`). Entsprechend müssen die
 beiden Klassen Node und Linked List angepasst werden.
 
 Das kann umgesetzt werden, in dem basierend auf den bereits existierenden
-Klassen abgeleitete Klassen implementiert werden.
+Klassen abgeleitete Klassen implementiert werden. Als UML-Klassendiagramm sieht
+das folgendermassen aus:
 
-Diese Beschreibung kann als
-UML-Klassendiagramm dargestellt werden.
-
-## Funktionen, welche eine Queue aufweisen muss
-
-Eine Queue muss, um abgespeicherte Daten in der richtigen Reihenfolge
-Für die Implementation wird auf
-der Klasse Node, welche für die [Implementation eines
-Stack](../250122/speicherstrukturen.md) geschrieben wurde, aufgebaut.
+![](class_diagram.svg)
