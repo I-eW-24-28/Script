@@ -7,9 +7,11 @@ In diesem Repository sollen die Unterlagen für das obligatorische Fach Informat
 Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 Änderungen kommen.
 
+Das Programm des vergangenen Semesters ist [hier](archive/inhalt.md) verfügbar.
+
 | Datum | Thema |
 | ----- | ----- |
-| 19.02.2025 | Queues Implementieren in Python |
+| 19.02.2025 | [Queues Implementieren in Python](250219/queue.md) |
 | 26.02.2025 | BST Implementieren in Python |
 | 05.03.2025 | BST Implementieren in Python |
 | 12.03.2025 | Binärsystem |
