@@ -19,6 +19,19 @@ bereits programmierter Klassen umgesetzt werden. Um die Daten abzuspeichern
 können wir Nodes verwenden und für die Struktur zum Erhalt der Reihenfolge die
 Linke List.
 
+In der aktuellen Implementation der Linked List gibt es nur einen Positionsbezug
+auf das letzte eingefügte Element (`self.root`). Damit die Linked List als Queue
+verwendet werden kann, muss auch ein Bezug auf das erste eingefügte Element
+angelegt werden (`self.head`). Für das Erste überhaupt in die Datenstruktur
+eingefügte Element ist dies kein Problem. Wenn aber weitere Elemente eingefügt
+oder entfernt werden, dann muss in den einzelnen Nodes nicht nur ein Bezug auf
+das folgende Element (`self.connections['next']`) sondern auch einer auf das
+Vorangehende Element (`self.connections['previous']`). Entsprechend müssen die
+beiden Klassen Node und Linked List angepasst werden.
+
+Das kann umgesetzt werden, in dem basierend auf den bereits existierenden
+Klassen abgeleitete Klassen implementiert werden.
+
 Diese Beschreibung kann als
 UML-Klassendiagramm dargestellt werden.
 
