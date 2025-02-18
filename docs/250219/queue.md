@@ -34,3 +34,7 @@ Klassen abgeleitete Klassen implementiert werden. Als UML-Klassendiagramm sieht
 das folgendermassen aus:
 
 ![](class_diagram.svg)
+
+Für die Umsetzung der obigen Ausführungen stehen hier zwei Module
+([linked_list.py](src/linked_list.py) und [nodes.py](src/nodes.py)) zur
+Verfügung. 

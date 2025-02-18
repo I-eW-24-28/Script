@@ -11,7 +11,7 @@ Das Programm des vergangenen Semesters ist [hier](archive/inhalt.md) verfügbar.
 
 | Datum | Thema |
 | ----- | ----- |
-| 19.02.2025 | Queues Implementieren in Python |
+| 19.02.2025 | [Queues Implementieren in Python](250219/queue.md) |
 | 26.02.2025 | BST Implementieren in Python |
 | 05.03.2025 | BST Implementieren in Python |
 | 12.03.2025 | Binärsystem |
