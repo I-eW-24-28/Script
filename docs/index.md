@@ -37,7 +37,9 @@ Der Unterricht findet über weite Strecken am Computer statt. Hier finden
 sich die Anleitungen für 
 die [Installation von Python](anleitungen/python.md)
 bzw.
-[Jupyter Notebooks](anleitungen/jupyter.md).
+[Jupyter Notebooks](anleitungen/jupyter.md).  
+Eine weitere Hilfestellung für den Umgang mit Jupyter Notebooks findet sich hier
+zum [Download](https://github.com/I-eW-24-28/Script/blob/main/docs/anleitungen/jupyter_cheat_sheet.pdf).
 
 Um im Unterricht etwas ausprobieren zu können, ohne dass der ganze
 Computer zum Absturz gebracht wird, arbeiten wir in virtuellen
