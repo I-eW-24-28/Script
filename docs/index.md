@@ -12,8 +12,8 @@ Das Programm des vergangenen Semesters ist [hier](archive/inhalt.md) verfügbar.
 | Datum | Thema |
 | ----- | ----- |
 | 19.02.2025 | [Queues Implementieren in Python](250219/queue.md) |
-| 26.02.2025 | BST Implementieren in Python [Sand der Arbeit](250226/bst.ipynb) |
-| 05.03.2025 | BST Implementieren in Python |
+| 26.02.2025 | BST Implementieren in Python |
+| 05.03.2025 | BST Implementieren in Python [Stand der Arbeit](250226/bst.ipynb) |
 | 12.03.2025 | Binärsystem |
 | 19.03.2025 | Base64 Codierung |
 | 26.03.2025 | Test (Datenstrukturen & Datencodierung) |
