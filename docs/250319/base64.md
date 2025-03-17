@@ -1,13 +1,11 @@
-# Base64 Codierung
-
-## Base64-Codierung
+# Base64-Codierung
 
 Die Base64-Codierung ist ein Verfahren zur Umwandlung von Binärdaten in eine
 Zeichenkette, die nur aus lesbaren ASCII-Zeichen besteht. Diese Codierung wird
 häufig verwendet, um binäre Daten über textbasierte Systeme zu übertragen, die
 möglicherweise nicht mit Binärdaten umgehen können (z.B. E-Mails, XML, JSON). 
 
-### Prinzip der Base64-Codierung
+## Prinzip der Base64-Codierung
 
 Base64 wandelt 3 Bytes (24 Bits) Binärdaten in 4 druckbare ASCII-Zeichen um:
 
@@ -15,7 +13,7 @@ Base64 wandelt 3 Bytes (24 Bits) Binärdaten in 4 druckbare ASCII-Zeichen um:
 2. Jeder 6-Bit-Block wird in ein druckbares ASCII-Zeichen umgewandelt
 3. Bei unvollständigen Blocks am Ende werden Füllzeichen (`=`) hinzugefügt
 
-### Base64-Zeichensatz
+## Base64-Zeichensatz
 
 Der Base64-Zeichensatz besteht aus 64 Zeichen:
 - Die Großbuchstaben A-Z (26 Zeichen)
@@ -26,7 +24,7 @@ Der Base64-Zeichensatz besteht aus 64 Zeichen:
 Diese 64 Zeichen repräsentieren die Werte 0-63 und können mit 6 Bits dargestellt
 werden. 
 
-### Codierungsprozess
+## Codierungsprozess
 
 1. Die Binärdaten werden in Gruppen von 3 Bytes (24 Bits) aufgeteilt
 2. Diese 24 Bits werden in vier 6-Bit-Blöcke umgewandelt
@@ -38,7 +36,7 @@ Wenn die Anzahl der zu codierenden Bytes nicht durch 3 teilbar ist:
 - Bei zwei übrig bleibenden Bytes: Auffüllen mit zwei Nullbits, Codierung ergibt
   drei Zeichen und ein '='-Zeichen 
 
-### Beispiel: "Hallo" in Base64
+## Beispiel: "Hallo" in Base64
 
 ![Base64 Beispiel](tabelle.svg)
 
@@ -53,7 +51,7 @@ Betrachten wir das Wort "Hallo":
 
 Das Ergebnis "SGFsbG8=" ist die Base64-Codierung von "Hallo".
 
-### Anwendungen der Base64-Codierung
+## Anwendungen der Base64-Codierung
 
 - E-Mail-Anhänge (MIME)
 - Datenkodierung in URLs
