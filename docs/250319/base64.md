@@ -40,7 +40,7 @@ Wenn die Anzahl der zu codierenden Bytes nicht durch 3 teilbar ist:
 
 ### Beispiel: "Hallo" in Base64
 
-
+![Base64 Beispiel](tabelle.svg)
 
 Betrachten wir das Wort "Hallo":
 
