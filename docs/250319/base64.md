@@ -3,7 +3,7 @@
 Die Base64-Codierung ist ein Verfahren zur Umwandlung von Binärdaten in eine
 Zeichenkette, die nur aus lesbaren ASCII-Zeichen besteht. Diese Codierung wird
 häufig verwendet, um binäre Daten über textbasierte Systeme zu übertragen, die
-möglicherweise nicht mit Binärdaten umgehen können (z.B. E-Mails, XML, JSON). 
+möglicherweise nicht mit Binärdaten umgehen können (z.B. E-Mails). 
 
 ## Prinzip der Base64-Codierung
 
@@ -36,9 +36,13 @@ Wenn die Anzahl der zu codierenden Bytes nicht durch 3 teilbar ist:
 - Bei zwei übrig bleibenden Bytes: Auffüllen mit zwei Nullbits, Codierung ergibt
   drei Zeichen und ein '='-Zeichen 
 
-## Beispiel: "Hallo" in Base64
+## Beispiele:
+
+### Beispiel 1: Codierung von "KBW"
 
 ![Base64 Beispiel](tabelle.svg)
+
+### Beispiel 2: Codierung von "Hallo"
 
 Betrachten wir das Wort "Hallo":
 
