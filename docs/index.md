@@ -17,7 +17,7 @@ Das Programm des vergangenen Semesters ist [hier](archive/inhalt.md) verfügbar.
 |            | (<a target="_blank" href="https://colab.research.google.com/github/I-eW-24-28/Script/blob/main/docs/250226/bst_muloe.ipynb">Musterlösung</a>) |
 | 12.03.2025 | Binärsystem ([Theorie](250312/binaersystem.md) & <a href="https://colab.research.google.com/github/I-eW-24-28/Script/blob/main/docs/250312/umrechnungen.ipynb" target="_blank">Arbeitsblatt</a>) |
 |            | <a target="_blank" href="https://colab.research.google.com/github/I-eW-24-28/Script/blob/main/docs/250312/muloe_umrechnungen_partiell.ipynb">Musterlösung</a> |
-| 19.03.2025 | Base64 Codierung |
+| 19.03.2025 | [Base64 Codierung](250319/base64.md) |
 | 26.03.2025 | Test (Datenstrukturen & Datencodierung; [Lernziele](250326/lernziele.md)) |
 | 02.04.2025 | Datenbanken |
 | 09.04.2025 | Datenbanken |
