@@ -12,6 +12,7 @@ Das Programm des vergangenen Semesters ist [hier](archive/inhalt.md) verfügbar.
 | Datum | Thema |
 | ----- | ----- |
 | 19.02.2025 | [Queues Implementieren in Python](250219/queue.md) |
+|            |<a target="_blank" href="https://colab.research.google.com/github/I-eW-24-28/Script/blob/main/docs/250219/queue.ipynb">Musterlösung Queue</a> |
 | 26.02.2025 | BST Implementieren in Python |
 | 05.03.2025 | BST Implementieren in Python <a target="_blank" href="https://colab.research.google.com/github/I-eW-24-28/Script/blob/main/docs/250226/bst.ipynb">[Stand der Arbeit]</a> |
 |            | (<a target="_blank" href="https://colab.research.google.com/github/I-eW-24-28/Script/blob/main/docs/250226/bst_muloe.ipynb">Musterlösung</a>) |
