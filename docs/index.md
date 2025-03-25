@@ -14,8 +14,7 @@ Das Programm des vergangenen Semesters ist [hier](archive/inhalt.md) verfügbar.
 | 19.02.2025 | [Queues Implementieren in Python](250219/queue.md) |
 |            |<a target="_blank" href="https://colab.research.google.com/github/I-eW-24-28/Script/blob/main/docs/250219/queue.ipynb">Musterlösung Queue</a> |
 | 26.02.2025 | BST Implementieren in Python |
-| 05.03.2025 | BST Implementieren in Python <a target="_blank" href="https://colab.research.google.com/github/I-eW-24-28/Script/blob/main/docs/250226/bst.ipynb">[Stand der Arbeit]</a> |
-|            | (<a target="_blank" href="https://colab.research.google.com/github/I-eW-24-28/Script/blob/main/docs/250226/bst_muloe.ipynb">Musterlösung</a>) |
+| 05.03.2025 | <a target="_blank" href="https://colab.research.google.com/github/I-eW-24-28/Script/blob/main/docs/250305/bst.ipynb">BST Implementieren in Python</a> |
 | 12.03.2025 | Binärsystem ([Theorie](250312/binaersystem.md) & <a href="https://colab.research.google.com/github/I-eW-24-28/Script/blob/main/docs/250312/umrechnungen.ipynb" target="_blank">Arbeitsblatt</a>) |
 |            | <a target="_blank" href="https://colab.research.google.com/github/I-eW-24-28/Script/blob/main/docs/250312/muloe_umrechnungen_partiell.ipynb">Musterlösung</a> |
 | 19.03.2025 | [Base64 Codierung](250319/base64.md) |
