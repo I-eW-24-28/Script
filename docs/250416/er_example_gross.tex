@@ -1,4 +1,9 @@
 \documentclass{standalone}
+
+\usepackage[scaled=0.95]{helvet}  % Load Helvetica font, slightly scaled for better appearance
+\usepackage[T1]{fontenc}         % Ensure proper font encoding
+\renewcommand{\familydefault}{\sfdefault}  % Set Helvetica as the default font
+
 \usepackage{tikz}
 \usetikzlibrary{positioning, er}
 
@@ -14,7 +19,12 @@
     \node[entity, above right =of ba,
           pin={[key attribute]90:Klassen ID}] (kl) {Klasse};
     \node[relationship, below right =of kl,
-          pin={[key attribute]270:Klassen ID},
+          pin={[key attribute]240:Fach ID},
+          pin={[attribute]300:Klassen ID}] (fu) {erhält Unterricht in};
+    \node[entity, above right = of fu,
+          pin={[key attribute]90:Fach ID}] (f) {Fach};
+    \node[relationship, below right =of f,
+          pin={[key attribute]270:Fach ID},
           pin={[attribute]330:Personalnummer}] (u) {unterrichtet};
     \node[entity, above right =of u,
           pin={[key attribute]60:Personalnummer},
@@ -23,7 +33,9 @@
 
     \draw (sus) -- (ba);
     \draw (ba) -- (kl);
-    \draw (kl) -- (u);
+    \draw (kl) -- (fu);
+    \draw (fu) -- (f);
+    \draw (f) -- (u);
     \draw (u) -- (le);
 \end{tikzpicture}
 \end{document}
