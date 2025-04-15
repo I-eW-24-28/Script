@@ -4,6 +4,26 @@
 
 \begin{document}
 \begin{tikzpicture}
-    \node[entity] (sus) {SuS};
+    \node[entity, 
+          pin={[key attribute]210:Matriklenummer},
+          pin={[attribute]180:Name},
+          pin={[attribute]150:Vorname}] (sus) {SuS};
+    \node[relationship, below right =of sus,
+          pin={[key attribute]210:Klassen ID},
+          pin={[attribute]270:Matrikelnummer}] (ba) {besteht aus};
+    \node[entity, above right =of ba,
+          pin={[key attribute]90:Klassen ID}] (kl) {Klasse};
+    \node[relationship, below right =of kl,
+          pin={[key attribute]270:Klassen ID},
+          pin={[attribute]330:Personalnummer}] (u) {unterrichtet};
+    \node[entity, above right =of u,
+          pin={[key attribute]60:Personalnummer},
+          pin={[attribute]0:Name},
+          pin={[attribute]330:Vorname}] (le) {Lehrer};
+
+    \draw (sus) -- (ba);
+    \draw (ba) -- (kl);
+    \draw (kl) -- (u);
+    \draw (u) -- (le);
 \end{tikzpicture}
 \end{document}
