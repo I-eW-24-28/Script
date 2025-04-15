@@ -17,18 +17,18 @@
           pin={[attribute]180:Name},
           pin={[attribute]150:Vorname}] (sus) {SuS};
     \node[relationship, below right =of sus,
-          pin={[key attribute]210:Klassen ID},
-          pin={[key attribute]270:Matrikelnummer}] (ba) {besteht aus};
+          pin={[key attribute, fill=gray!20]210:Klassen ID},
+          pin={[key attribute, fill=gray!20]270:Matrikelnummer}] (ba) {besteht aus};
     \node[entity, above right =of ba,
           pin={[key attribute]90:Klassen ID}] (kl) {Klasse};
     \node[relationship, below right =of kl,
-          pin={[key attribute]240:Fach ID},
-          pin={[key attribute]300:Klassen ID}] (fu) {erhält Unterricht in};
+          pin={[key attribute, fill=gray!20]240:Fach ID},
+          pin={[key attribute, fill=gray!20]300:Klassen ID}] (fu) {erhält Unterricht in};
     \node[entity, above right = of fu,
           pin={[key attribute]90:Fach ID}] (f) {Fach};
     \node[relationship, below right =of f,
-          pin={[key attribute]270:Fach ID},
-          pin={[key attribute]330:Personalnummer}] (u) {unterrichtet};
+          pin={[key attribute, fill=gray!20]270:Fach ID},
+          pin={[key attribute, fill=gray!20]330:Personalnummer}] (u) {unterrichtet};
     \node[entity, above right =of u,
           pin={[key attribute]60:Personalnummer},
           pin={[attribute]0:Name},
