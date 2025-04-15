@@ -3,9 +3,12 @@
 \usepackage[scaled=0.95]{helvet}  % Load Helvetica font, slightly scaled for better appearance
 \usepackage[T1]{fontenc}         % Ensure proper font encoding
 \renewcommand{\familydefault}{\sfdefault}  % Set Helvetica as the default font
+\usepackage{soul}
 
 \usepackage{tikz}
 \usetikzlibrary{positioning, er}
+
+
 
 \begin{document}
 \begin{tikzpicture}
@@ -15,17 +18,17 @@
           pin={[attribute]150:Vorname}] (sus) {SuS};
     \node[relationship, below right =of sus,
           pin={[key attribute]210:Klassen ID},
-          pin={[attribute]270:Matrikelnummer}] (ba) {besteht aus};
+          pin={[key attribute]270:Matrikelnummer}] (ba) {besteht aus};
     \node[entity, above right =of ba,
           pin={[key attribute]90:Klassen ID}] (kl) {Klasse};
     \node[relationship, below right =of kl,
           pin={[key attribute]240:Fach ID},
-          pin={[attribute]300:Klassen ID}] (fu) {erhält Unterricht in};
+          pin={[key attribute]300:Klassen ID}] (fu) {erhält Unterricht in};
     \node[entity, above right = of fu,
           pin={[key attribute]90:Fach ID}] (f) {Fach};
     \node[relationship, below right =of f,
           pin={[key attribute]270:Fach ID},
-          pin={[attribute]330:Personalnummer}] (u) {unterrichtet};
+          pin={[key attribute]330:Personalnummer}] (u) {unterrichtet};
     \node[entity, above right =of u,
           pin={[key attribute]60:Personalnummer},
           pin={[attribute]0:Name},
