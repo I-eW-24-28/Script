@@ -4,7 +4,7 @@
 \renewcommand{\familydefault}{\sfdefault}  % Set Helvetica as the default font
 
 \usepackage{tikz}
-\usetikzlibrary{positioning, er}
+\usetikzlibrary{positioning, er, fit}
 
 
 
@@ -32,5 +32,15 @@
     \draw (ba) -- (kl);
     \draw (kl) -- (u);
     \draw (u) -- (le);
+
+    \node[draw, rectangle, right=5cm of le] (entity) {Entity};
+    \node[draw, diamond, below = 0.5cm of entity] (relationship) {Relationship};
+    \node[draw, ellipse, below = 0.5cm of relationship] (attribute) {Attribute};
+    \node[draw, ellipse, below = 0.5cm of attribute] (key) {\textit{Key}};
+    \node[draw, ellipse, fill=gray!20, below = 0.5cm of key] (fk)
+    {\textit{Foreign Key}};
+    \node[above = 0.5cm of entity] (legend) {Legende:};
+    \node[draw, fit=(legend)(entity)(relationship)(attribute)(key)(fk), 
+          inner sep=0.2cm] (legendbox) {};
 \end{tikzpicture}
 \end{document}
