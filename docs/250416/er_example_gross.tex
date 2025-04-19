@@ -6,7 +6,7 @@
 \usepackage{soul}
 
 \usepackage{tikz}
-\usetikzlibrary{positioning, er}
+\usetikzlibrary{positioning, er, fit}
 
 
 
@@ -22,14 +22,17 @@
     \node[entity, above right =of ba,
           pin={[key attribute]90:Klassen ID}] (kl) {Klasse};
     \node[relationship, below right =of kl,
-          pin={[key attribute, fill=gray!20]240:Fach ID},
-          pin={[key attribute, fill=gray!20]300:Klassen ID}] (fu) {erhält Unterricht in};
-    \node[entity, above right = of fu,
-          pin={[key attribute]90:Fach ID}] (f) {Fach};
-    \node[relationship, below right =of f,
-          pin={[key attribute, fill=gray!20]270:Fach ID},
-          pin={[key attribute, fill=gray!20]330:Personalnummer}] (u) {unterrichtet};
-    \node[entity, above right =of u,
+          pin={[key attribute, fill=gray!20]260:Personalnummer},
+          pin={[key attribute, fill=gray!20]0:Klassen ID},
+          pin={[key attribute, fill=gray!20]90:Fach ID}] (fu) {erhält Unterricht in/von};
+    \node[entity, below right = of fu,
+          pin={[key attribute]0:Fach ID},
+          pin={[attribute]290:Stundendotation},
+          pin={[attribute]220:Spezialzimmer}] (f) {Fach};
+    %\node[relationship, below right =of f,
+    %      pin={[key attribute, fill=gray!20]270:Fach ID},
+    %      pin={[key attribute, fill=gray!20]330:Personalnummer}] (u) {unterrichtet};
+    \node[entity, above right =of fu,
           pin={[key attribute]60:Personalnummer},
           pin={[attribute]0:Name},
           pin={[attribute]330:Vorname}] (le) {Lehrer};
@@ -38,7 +41,17 @@
     \draw (ba) -- (kl);
     \draw (kl) -- (fu);
     \draw (fu) -- (f);
-    \draw (f) -- (u);
-    \draw (u) -- (le);
+    \draw (fu) -- (le);
+    %\draw (u) -- (le);
+
+    \node[draw, rectangle, right=5cm of le] (entity) {Entity};
+    \node[draw, diamond, below = 0.5cm of entity] (relationship) {Relationship};
+    \node[draw, ellipse, below = 0.5cm of relationship] (attribute) {Attribute};
+    \node[draw, ellipse, below = 0.5cm of attribute] (key) {\textit{Key}};
+    \node[draw, ellipse, fill=gray!20, below = 0.5cm of key] (fk)
+    {\textit{Foreign Key}};
+    \node[above = 0.5cm of entity] (legend) {Legende:};
+    \node[draw, fit=(legend)(entity)(relationship)(attribute)(key)(fk), 
+          inner sep=0.2cm] (legendbox) {};
 \end{tikzpicture}
 \end{document}
