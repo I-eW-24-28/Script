@@ -33,9 +33,10 @@
     %      pin={[key attribute, fill=gray!20]270:Fach ID},
     %      pin={[key attribute, fill=gray!20]330:Personalnummer}] (u) {unterrichtet};
     \node[entity, above right =of fu,
-          pin={[key attribute]60:Personalnummer},
-          pin={[attribute]0:Name},
-          pin={[attribute]330:Vorname}] (le) {Lehrer};
+          pin={[key attribute]90:Personalnummer},
+          pin={[attribute]20:Name},
+          pin={[attribute]340:Vorname},
+          pin={[attribute]270:Geb\_Datum}] (le) {Lehrer};
 
     \draw (sus) -- (ba);
     \draw (ba) -- (kl);
