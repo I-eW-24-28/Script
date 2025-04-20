@@ -49,3 +49,5 @@ drei bzw. vier Attribute.
     <img src="entity_teacher.svg" alt="Tabelle Lehrer" style="width: 45%;">
 </div>
 
+Im Folgenden Abschnitt sollen die Daten aus den Tabellen mit Hilfe von SQL
+Statements abgefragt werden.
