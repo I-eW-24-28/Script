@@ -93,3 +93,61 @@ Deutsch unterrichtet. Aus diesem Grund wurde die Tabelle `erhält Unterricht
 in/von` angelegt.
 
 ![erhält Unterricht in/von](relationship_cut.svg)
+
+Um abzufragen, wer Deutsch unterrichtet, müssen die Daten aus den Tabellen
+`Lehrer`, `Fach` und `erhält Unterricht in/von` zusammengeführt werden. Dies
+geschieht mit dem Schlüsselwort `JOIN`. Das Schlüsselwort `JOIN` kann
+unterschiedlich verwendet werden. Im vorliegenden Beispiel wird die Variante `INNER
+JOIN` verwendet.
+
+```sql
+SELECT DISTINCT l.Name, l.Vorname
+FROM Lehrer AS l
+INNER JOIN erhält_Unterricht_in AS u ON l.Personalnummer = u.Personalnummer
+WHERE u.Fach_ID = 'Deutsch';
+```
+
+Das Resultat dieser Abfrage sieht wie folgt aus:
+
+| Name     | Vorname                |
+|----------|------------------------|
+| Schiller | Friedrich              |
+
+In Ergänzung zu den bisherigen Abfragen, kommt neu das Schlüsselwort `DISTINCT`
+zum Einsatz. Dieses bewirkt, dass Daten, die mehrfach vorkommen, nur einmal
+ausgegeben werden. In diesem Beispiel wäre dies nicht nötig, da es nur einen
+Lehrer gibt, der Deutsch unterrichtet.  
+Unter dem Schlüsselwort `FROM` wird die Tabelle `Lehrer` mit dem Alias `l`
+angegeben. Der Alias wird verwendet, um die Abfrage leserlicher zu machen. Wenn
+mehrere Tabellen abgefragt werden, muss jede Spalte die Ausgeben werden soll,
+mit der Tabelle, aus der sie stammt, angegeben werden. Mit dem Alias kann dies
+abgekürzt werden. Das Schlüsselwort `AS` für den Alias ist nicht nötig, dient
+aber der besseren Lesbarkeit.  
+Mit dem Schlüsselwort `INNER JOIN` werden die Datensätze aus den beiden Tabellen
+`Lehrer` und `erhält_Unterricht_in` basierend auf übereinstimmenden Werten in
+der Spalte `Personalnummer` miteinander verbunden. Dabei entsteht eine neue
+Ergebnismenge, die alle Spalten beider Tabellen enthält, jedoch nur für
+diejenigen Zeilen, bei denen die `Personalnummer` in beiden Tabellen
+übereinstimmt.   
+Aus dieser Schnittmenge werden aus der Tabelle `erhält Unterricht in/von` die
+Lehrer ausgewählt, die Deutsch unterrichten. Dies geschieht mit dem
+Schlüsselwort `WHERE` und dem Kriterium `u.Fach_ID = 'Deutsch'`.
+
+Die Abfrage, wer die Klasse fP_24-28 in PPP unterrichtet, sieht wie folgt aus:
+
+```sql
+SELECT l.Name, l.Vorname
+FROM Lehrer AS l
+INNER JOIN erhält_Unterricht_in AS u ON l.Personalnummer = u.Personalnummer
+WHERE u.Fach_ID = 'PPP' 
+AND u.Klassen_ID = 'fP_24-28';
+```	
+
+Die Abfrage gibt folgendes Resultat zurück:
+
+| Name     | Vorname                |
+|----------|------------------------|
+| Piaget   | Jean                   |
+
+Gegenüber der Aabfrage, wer Deutsch unterrichtet, wurde mit dem Schlüsselwort
+`AND` die zusätzliche Bedingung `u.Klassen_ID = 'fP_24-28'` hinzugefügt.
