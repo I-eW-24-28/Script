@@ -23,7 +23,7 @@ Das Programm des vergangenen Semesters ist [hier](archive/inhalt.md) verfügbar.
 | 09.04.2025 | Datenbanken |
 | 16.04.2025 | [Datenbanken](250416/datenbank.md) |
 | 07.05.2025 | [Datenbanken](250507/sql.md) |
-| 14.05.2025 | Datenbanken |
+| 14.05.2025 | Datenbanken: [Übungen](https://sql-island.informatik.uni-kl.de/) |
 | 21.05.2025 | Test (Datenbanken) |
 | 28.05.2025 | Datenvisualisierung mit Python |
 | 04.06.2025 | Datenvisualisierung mit Python |

@@ -151,3 +151,8 @@ Die Abfrage gibt folgendes Resultat zurück:
 
 Gegenüber der Aabfrage, wer Deutsch unterrichtet, wurde mit dem Schlüsselwort
 `AND` die zusätzliche Bedingung `u.Klassen_ID = 'fP_24-28'` hinzugefügt.
+
+Der nächste Abschnitt dient dazu, SQL zu üben. Als Übungsplattform wird SQL Island
+genutzt. Diese Plattform ist unter
+[sql-island.informatik.uni-kl.de](https://sql-island.informatik.uni-kl.de/) zu
+finden.
