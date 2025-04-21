@@ -21,15 +21,28 @@ Daten sicherstellen.
 ## Charakteristika von Datenbanken
 
 Ein wichtiges Merkmal von Datenbanken ist es, dass die gespeicherten Daten nur
-einmal abgelegt werden. Damit kann verhindert werden, dass redundante Daten
+einmal abgelegt werden. Damit kann verhindert werden, dass mehrfach
+abgespeicherte Daten (redundante Daten)
 lediglich an einer Stelle modifiziert werden und damit Widersprüche entstehen.
 Der Entwurf von Datenbanken muss dem Rechnung tragen. Ein Hilfsmittel für den
 Entwurf von Datenbanken ist das ER-Diagramm (Entity-Relationship-Diagramm).
 Das ER-Diagramm ist eine grafische Darstellung der Datenbankstruktur. Es zeigt
-die Entitäten, die in der Datenbank gespeichert werden, mit ihren Attributen
-sowie die Beziehungen zwischen den Entitäten. Die untenstehende Graphik zeigt
-eine Skizze eines ER-Diagramms, in welchem die Beziehungen zwischen Schülern,
-Klassen und Lehrern dargestellt wird.
+die Entitäten (durch die Datenbank modellierte Dinge der realen Welt), die in
+der Datenbank gespeichert werden, mit ihren Attributen (Eigenschaften der
+modellierten Dinge)
+sowie die Beziehungen (Relationship) zwischen den Entitäten. 
+
+Um einen Eintrag in der Datenbank eindeutig identifizieren zu können, wird
+jedem Eintrag ein Primärschlüssel zugeordnet. Der Primärschlüssel ist ein
+Attribut oder eine Kombination von Attributen, die den Eintrag eindeutig
+identifiziert.  
+In den Beziehungen werden die Primärschlüssel der Entitäten als
+Fremdschlüssel verwendet. Ein Fremdschlüssel ist ein Attribut oder eine
+Kombination von Attributen, die auf den Primärschlüssel einer anderen Entität
+verweisen. So kann eine Beziehung zwischen zwei Entitäten hergestellt werden.
+
+Die untenstehende Graphik zeigt eine Skizze eines ER-Diagramms, in welchem die
+Beziehungen zwischen Schülern, Klassen und Lehrern dargestellt wird.
 
 ![ER-Diagramm](er_example_klein.svg)
 
