@@ -6,12 +6,17 @@ concepts; Seventh edition; New York 2020.
 
 ## Einführung
 
-Die bisher besprochenen Datenstrukturen dienen der Bearbeitung von Daten im
+Die bisher besprochenen Datenstrukturen 
+[Dictionary](241120/dictionaries.md),
+[Stack, Queue](250122/speicherstrukturen.md)
+und [Binary Search Tree](250115/binary_search_tree.md)
+dienen der Bearbeitung von Daten im
 Arbeitsspeicher. Sie sind daher auf einen beschränkten Umfang von Datensätzen
 ausgelegt. Ausserdem dienen sie nicht der permanenten Ablage von Daten.
 
-Datenbanken dienen der effizienten Speicherung und Verwaltung
-von grossen Datenmengen und der dauerhaften sicheren Speicherung der Daten.
+Im Gegensatz dazu dienen Datenbanken der dauerhaften Ablage grosser Datensätze.
+Darüber hinaus sollen sie die effiziente Verfügbarkeit und die Integrität der
+Daten sicherstellen.
 
 ## Charakteristika von Datenbanken
 
