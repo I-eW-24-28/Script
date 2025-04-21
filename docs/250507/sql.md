@@ -2,12 +2,15 @@
 
 Datenbanken werden mit einer spezifischen Datenbanksprache angesprochen. Im
 Gegensatz zur bisher im Unterricht verwendeten Programmiersprache Python ist die
-Datenbanksprache SQL (Structured Query Language) eine deklarative Sprache. Das heisst,
-dass die Datenbank nicht mit einem Algorithmus angesprochen wird, sondern mit
-einer Abfrage, die beschreibt, welche Daten benötigt werden. Die Datenbank
-entscheidet dann, wie die Abfrage am besten ausgeführt wird.
+Datenbanksprache SQL (Structured Query Language) eine deklarative Sprache. In
+Python werden die Befehle grundsätzlich der Reihe nach abgearbeitet. In SQL wird
+das gewünschte Resultat beschrieben. Wie diese Beschreibung abgearbeitet wird,
+ist in den Grundlagen der Datenbank programmiert.
 
-Abfragen mit SQL folgen untenstehender Grundstruktur:
+## Grundstruktur einer SQL Abfrage
+
+Die Grundstruktur einer SQL Abfrage ist im untenstehenden Code Snippet
+dargestellt.
 
 ```sql
 SELECT <Spalten> 
@@ -22,6 +25,8 @@ erfüllt sein muss, damit die Daten angezeigt werden. Dass die Schlüsselwörter
 in Grossbuchstaben geschrieben werden, ist technisch nicht nötig, entspricht
 aber der Konvention. Die Abfrage wird mit einem Semikolon abgeschlossen.
 
+### Einfache Abfrage 
+
 In einem ersten Beispiel sollen alle Vornamen aller Lehrer aus der Tabelle
 Lehrer aus dem vergangenen Abschnitt angezeigt werden:
 
@@ -34,6 +39,8 @@ In diesem Beispiel wurde auf die Formulierung einer Bedingung verzichtet. Wenn
 die Ausgabe zusätzlich eine Bedingung erfüllen soll, wird diese mit dem
 Schlüsselwort `WHERE` angegeben. Im folgenden Beispiel sollen nur die Vornamen der
 Lehrer angezeigt werden, die vor dem Jahr 1800 geboren sind.
+
+### Abfrage mit Bedingung
 
 ```sql
 SELECT Vorname
@@ -49,6 +56,8 @@ Diese Abfrage führt zu folgendem Ergebnis:
 | Honore de             |
 | Johann Carl Friedrich |
 | Guillaume-Henri       |
+
+### Sortierung der Ausgabe
 
 Falls die Ausgabe nicht nur die Vornamen, sondern auch die Nachnamen und das
 Geburtsdatum enthalten soll und die Ausgabe nach dem Geburtsdatum aufsteigend
@@ -86,6 +95,8 @@ ORDER BY Geburtsdatum DESC;
 Die Sortierreihenfolge wird hinter das Kriterium geschrieben. Wenn nach mehreren
 Kriterien sortiert werden soll, werden die zusätzlichen Kriterien mit einem
 Komma an das erste Kriterium angehängt.
+
+## Abfrage aus mehreren Tabellen
 
 Interessanter, als die Abfrage von Daten aus einer einzigen Tabelle, ist die
 Abfrage aus mehreren Tabellen. So ist es im Beispiel möglich, Abzufragen, wer
@@ -149,8 +160,10 @@ Die Abfrage gibt folgendes Resultat zurück:
 |----------|------------------------|
 | Piaget   | Jean                   |
 
-Gegenüber der Aabfrage, wer Deutsch unterrichtet, wurde mit dem Schlüsselwort
+Gegenüber der Abfrage, wer Deutsch unterrichtet, wurde mit dem Schlüsselwort
 `AND` die zusätzliche Bedingung `u.Klassen_ID = 'fP_24-28'` hinzugefügt.
+
+## Ausblick
 
 Der nächste Abschnitt dient dazu, SQL zu üben. Als Übungsplattform wird SQL Island
 genutzt. Diese Plattform ist unter
